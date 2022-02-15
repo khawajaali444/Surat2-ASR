@@ -1,0 +1,42 @@
+# lattice-depth-per-frame "ark:gunzip -c exp/mono/decode/lat.1.gz|" "ark,t:|gzip -c > exp/mono/decode/depth_tmp.1.gz" ark:- | lattice-best-path --acoustic-scale=0.1 ark:- ark:/dev/null "ark,t:|gzip -c >exp/mono/decode/ali_tmp.1.gz" 
+# Started at Tue Feb 15 14:17:54 PKT 2022
+#
+lattice-depth-per-frame 'ark:gunzip -c exp/mono/decode/lat.1.gz|' 'ark,t:|gzip -c > exp/mono/decode/depth_tmp.1.gz' ark:- 
+lattice-best-path --acoustic-scale=0.1 ark:- ark:/dev/null 'ark,t:|gzip -c >exp/mono/decode/ali_tmp.1.gz' 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 133_Hudhoudi_133Falaq, best cost 253.803 + 31212.4 = 31466.2 over 3297 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 133_Hudhoudi_133Ikhlas, best cost 146.61 + 20736.1 = 20882.7 over 2158 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 133_Hudhoudi_133Kafiroon, best cost 317.454 + 51927.3 = 52244.8 over 5698 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 133_Hudhoudi_133Nas, best cost 251.622 + 40819.7 = 41071.3 over 4376 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 134_Kamel_134Falaq, best cost 275.751 + 38423.5 = 38699.2 over 3833 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 134_Kamel_134Ikhlas, best cost 185.047 + 25552.7 = 25737.8 over 2527 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 134_Kamel_134Kafiroon, best cost 356.087 + 43900.3 = 44256.4 over 4541 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 134_Kamel_134Nas, best cost 578.262 + 107114 = 107692 over 10875 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 135_AbdelAziz_135Falaq, best cost 191.487 + 16751 = 16942.5 over 1881 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 135_AbdelAziz_135Ikhlas, best cost 112.288 + 9754.17 = 9866.46 over 1079 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 135_AbdelAziz_135Kafiroon, best cost 160.721 + 19366.1 = 19526.8 over 2132 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 135_AbdelAziz_135Nas, best cost 204.875 + 22698.4 = 22903.3 over 2634 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 136_AbdelKawi_136Falaq, best cost 331.445 + 30732.1 = 31063.6 over 3253 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 136_AbdelKawi_136Ikhlas, best cost 218.519 + 20664 = 20882.6 over 2203 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 136_AbdelKawi_136Kafiroon, best cost 350.267 + 42888.6 = 43238.9 over 4739 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 136_AbdelKawi_136Nas, best cost 341.374 + 43809.1 = 44150.5 over 5003 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 137_Rawdhaan_137Falaq, best cost 242.739 + 24491.4 = 24734.1 over 2289 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 137_Rawdhaan_137Ikhlas, best cost 189.173 + 26694.9 = 26884.1 over 2503 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 137_Rawdhaan_137Kafiroon, best cost 248.866 + 32626.7 = 32875.6 over 3127 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 137_Rawdhaan_137Nas, best cost 231.394 + 28725.9 = 28957.3 over 2699 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 138_AlHamri_138Falaq, best cost 317.286 + 34821.6 = 35138.9 over 3804 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 138_AlHamri_138Ikhlas, best cost 242.902 + 25741.9 = 25984.8 over 2768 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 138_AlHamri_138Kafiroon, best cost 354.585 + 43350.7 = 43705.3 over 4689 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 138_AlHamri_138Nas, best cost 276.141 + 46224.8 = 46500.9 over 5352 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 139_AbdulBari_139Falaq, best cost 341.389 + 37599.8 = 37941.2 over 3911 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 139_AbdulBari_139Ikhlas, best cost 225.863 + 24216.9 = 24442.8 over 2454 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 139_AbdulBari_139Kafiroon, best cost 345.945 + 50699 = 51045 over 5515 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 139_AbdulBari_139Nas, best cost 339.708 + 44959.2 = 45298.9 over 5008 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 140_AbdulBasit_140Falaq, best cost 350.087 + 61021 = 61371.1 over 6314 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 140_AbdulBasit_140Ikhlas, best cost 253.28 + 40388.7 = 40642 over 4099 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 140_AbdulBasit_140Kafiroon, best cost 476.629 + 84450.2 = 84926.8 over 9068 frames.
+LOG (lattice-depth-per-frame[5.5.996~1-2b016]:main():lattice-depth-per-frame.cc:82) Done 32 lattices.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 140_AbdulBasit_140Nas, best cost 438.136 + 77333.4 = 77771.5 over 8033 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:124) Overall cost per frame is 9.54669 = 0.0693887 [graph] + 9.4773 [acoustic] over 131862 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:128) Done 32 lattices, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Tue Feb 15 14:17:55 PKT 2022, elapsed time 1 seconds

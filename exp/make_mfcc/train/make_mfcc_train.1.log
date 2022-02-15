@@ -1,0 +1,149 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/train/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/train/utt2num_frames.1 --compress=true ark:- ark,scp:/home/khawaja/Desktop/kaldi/egs/surat2/mfcc/raw_mfcc_train.1.ark,/home/khawaja/Desktop/kaldi/egs/surat2/mfcc/raw_mfcc_train.1.scp 
+# Started at Tue Feb 15 14:11:58 PKT 2022
+#
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/train/utt2num_frames.1 --compress=true ark:- ark,scp:/home/khawaja/Desktop/kaldi/egs/surat2/mfcc/raw_mfcc_train.1.ark,/home/khawaja/Desktop/kaldi/egs/surat2/mfcc/raw_mfcc_train.1.scp 
+compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/train/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- 
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 101_Daghistani_101Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 101_Daghistani_101Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 101_Daghistani_101Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 101_Daghistani_101Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 102_NohAhmad_102Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 102_NohAhmad_102Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 102_NohAhmad_102Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 102_NohAhmad_102Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 103_Alshoaey_103Falaq
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:181) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 103_Alshoaey_103Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 103_Alshoaey_103Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 103_Alshoaey_103Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 104_Edghouch_104Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 104_Edghouch_104Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 104_Edghouch_104Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 104_Edghouch_104Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 105_Sarhaan_105Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 105_Sarhaan_105Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 105_Sarhaan_105Kafiroon
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:181) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 105_Sarhaan_105Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 106_Salama_106Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 106_Salama_106Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 106_Salama_106Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 106_Salama_106Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 107_Qureshi_107Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 107_Qureshi_107Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 107_Qureshi_107Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 107_Qureshi_107Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 108_Mazroyee_108Falaq
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:181) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 108_Mazroyee_108Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 108_Mazroyee_108Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 108_Mazroyee_108Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 109_Dossari_109Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 109_Dossari_109Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 109_Dossari_109Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 109_Dossari_109Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 110_Jazairi_110Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 110_Jazairi_110Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 110_Jazairi_110Kafiroon
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:181) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 110_Jazairi_110Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 111_Hawwa_111Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 111_Hawwa_111Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 111_Hawwa_111Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 111_Hawwa_111Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 112_Dulaimi_112Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 112_Dulaimi_112Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 112_Dulaimi_112Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 112_Dulaimi_112Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 113_Naehi_113Falaq
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:181) Processed 50 utterances
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 113_Naehi_113Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 113_Naehi_113Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 113_Naehi_113Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 114_Maneese_114Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 114_Maneese_114Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 114_Maneese_114Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 114_Maneese_114Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 115_Waleed_115Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 115_Waleed_115Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 115_Waleed_115Kafiroon
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:181) Processed 60 utterances
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 115_Waleed_115Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 116_Hammadi_116Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 116_Hammadi_116Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 116_Hammadi_116Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 116_Hammadi_116Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 117_Tawfeeq_117Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 117_Tawfeeq_117Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 117_Tawfeeq_117Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 117_Tawfeeq_117Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 118_Abdulgani_118Falaq
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:181) Processed 70 utterances
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 118_Abdulgani_118Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 118_Abdulgani_118Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 118_Abdulgani_118Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 119_Taha_119Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 119_Taha_119Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 119_Taha_119Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 119_Taha_119Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 120_Taher_120Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 120_Taher_120Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 120_Taher_120Kafiroon
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:181) Processed 80 utterances
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 120_Taher_120Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 121_Ezzat_121Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 121_Ezzat_121Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 121_Ezzat_121Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 121_Ezzat_121Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 122_Amarneh_122Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 122_Amarneh_122Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 122_Amarneh_122Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 122_Amarneh_122Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 123_Abbas_123Falaq
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:181) Processed 90 utterances
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 123_Abbas_123Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 123_Abbas_123Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 123_Abbas_123Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 124_Ghurab_124Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 124_Ghurab_124Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 124_Ghurab_124Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 124_Ghurab_124Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 125_Halabi_125Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 125_Halabi_125Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 125_Halabi_125Kafiroon
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:181) Processed 100 utterances
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 125_Halabi_125Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 126_Abbad_126Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 126_Abbad_126Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 126_Abbad_126Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 126_Abbad_126Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 127_Seferagic_127Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 127_Seferagic_127Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 127_Seferagic_127Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 127_Seferagic_127Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 128_Fouad_128Falaq
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:181) Processed 110 utterances
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 128_Fouad_128Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 128_Fouad_128Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 128_Fouad_128Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 129_Sinan_129Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 129_Sinan_129Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 129_Sinan_129Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 129_Sinan_129Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 130_Moraib_130Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 130_Moraib_130Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 130_Moraib_130Kafiroon
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:181) Processed 120 utterances
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 130_Moraib_130Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 131_Hassan_131Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 131_Hassan_131Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 131_Hassan_131Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 131_Hassan_131Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 132_Saleh_132Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 132_Saleh_132Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 132_Saleh_132Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 132_Saleh_132Nas
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:185)  Done 128 out of 128 utterances.
+LOG (copy-feats[5.5.996~1-2b016]:main():copy-feats.cc:143) Copied 128 feature matrices.
+# Accounting: time=4 threads=1
+# Ended (code 0) at Tue Feb 15 14:12:02 PKT 2022, elapsed time 4 seconds

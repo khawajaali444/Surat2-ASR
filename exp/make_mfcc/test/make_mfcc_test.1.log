@@ -1,0 +1,44 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.1 --compress=true ark:- ark,scp:/home/khawaja/Desktop/kaldi/egs/surat2/mfcc/raw_mfcc_test.1.ark,/home/khawaja/Desktop/kaldi/egs/surat2/mfcc/raw_mfcc_test.1.scp 
+# Started at Tue Feb 15 14:12:02 PKT 2022
+#
+compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.1.scp ark:- 
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.1 --compress=true ark:- ark,scp:/home/khawaja/Desktop/kaldi/egs/surat2/mfcc/raw_mfcc_test.1.ark,/home/khawaja/Desktop/kaldi/egs/surat2/mfcc/raw_mfcc_test.1.scp 
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 133_Hudhoudi_133Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 133_Hudhoudi_133Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 133_Hudhoudi_133Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 133_Hudhoudi_133Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 134_Kamel_134Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 134_Kamel_134Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 134_Kamel_134Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 134_Kamel_134Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 135_AbdelAziz_135Falaq
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:181) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 135_AbdelAziz_135Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 135_AbdelAziz_135Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 135_AbdelAziz_135Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 136_AbdelKawi_136Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 136_AbdelKawi_136Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 136_AbdelKawi_136Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 136_AbdelKawi_136Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 137_Rawdhaan_137Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 137_Rawdhaan_137Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 137_Rawdhaan_137Kafiroon
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:181) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 137_Rawdhaan_137Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 138_AlHamri_138Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 138_AlHamri_138Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 138_AlHamri_138Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 138_AlHamri_138Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 139_AbdulBari_139Falaq
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 139_AbdulBari_139Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 139_AbdulBari_139Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 139_AbdulBari_139Nas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 140_AbdulBasit_140Falaq
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:181) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 140_AbdulBasit_140Ikhlas
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 140_AbdulBasit_140Kafiroon
+VLOG[2] (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:182) Processed features for key 140_AbdulBasit_140Nas
+LOG (compute-mfcc-feats[5.5.996~1-2b016]:main():compute-mfcc-feats.cc:185)  Done 32 out of 32 utterances.
+LOG (copy-feats[5.5.996~1-2b016]:main():copy-feats.cc:143) Copied 32 feature matrices.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Tue Feb 15 14:12:03 PKT 2022, elapsed time 1 seconds

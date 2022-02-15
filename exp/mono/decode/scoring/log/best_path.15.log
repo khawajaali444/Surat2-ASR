@@ -1,0 +1,72 @@
+# lattice-best-path --lm-scale=15 --word-symbol-table=exp/mono/graph/words.txt "ark:gunzip -c exp/mono/decode/lat.*.gz|" ark,t:exp/mono/decode/scoring/15.tra 
+# Started at Tue Feb 15 14:17:57 PKT 2022
+#
+lattice-best-path --lm-scale=15 --word-symbol-table=exp/mono/graph/words.txt 'ark:gunzip -c exp/mono/decode/lat.*.gz|' ark,t:exp/mono/decode/scoring/15.tra 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 133_Hudhoudi_133Falaq, best cost 3057.88 + 312753 = 315811 over 3297 frames.
+133_Hudhoudi_133Falaq bisomi {lr~aHoma`ni {lr~aHiymi >aEuw*u birab~i lamo min $ar~i lamo min $ar~i <i*aA min $ar~i walamo {ln~aAsi min $ar~i lamo diynukumo 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 133_Hudhoudi_133Ikhlas, best cost 1761.04 + 207769 = 209530 over 2158 frames.
+133_Hudhoudi_133Ikhlas bisomi >aHadN {lr~aHiymi walamo yalido walamo l~ahu, kufuwFA walamo 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 133_Hudhoudi_133Kafiroon, best cost 4132.37 + 519755 = 523887 over 5698 frames.
+133_Hudhoudi_133Kafiroon bisomi {loxan~aAsi {lr~aHoma`ni {lr~aHiymi taEobuduwna walaA^ <i*aA >aEuw*u <i*aA walaA^ EaAbidN >aEobudu <ila`hi walamo {ln~aAsi walamo maA^ Hasada walaA^ waqaba maA^ walamo {ln~aAsi diyni walamo $ar~i diyni 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 133_Hudhoudi_133Nas, best cost 2917.09 + 408852 = 411769 over 4376 frames.
+133_Hudhoudi_133Nas bisomi {loxan~aAsi {ll~ahi yakun lakumo {lr~aHoma`ni {lr~aHiymi qulo >aEuw*u birab~i {ln~aAsi {ln~aAsi bisomi {ln~aAsi min $ar~i {ln~aAsi {ln~aAsi lamo 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 134_Kamel_134Falaq, best cost 3161.21 + 385032 = 388193 over 3833 frames.
+134_Kamel_134Falaq wamin {lr~aHiymi qulo wamin birab~i $ar~i >aEuw*u wamin wamin >aEuw*u wamin wamin bisomi maA walamo {lofalaqi walamo $ar~i {lr~aHiymi bisomi kufuwFA 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 134_Kamel_134Ikhlas, best cost 2114.19 + 256110 = 258224 over 2527 frames.
+134_Kamel_134Ikhlas {ll~ahu >aEuw*u walamo >aHadN walaA^ walamo yalido walaA^ {lr~aHiymi kufuwFA walaA^ walamo 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 134_Kamel_134Kafiroon, best cost 3851.9 + 440143 = 443995 over 4541 frames.
+134_Kamel_134Kafiroon birab~i {lr~aHiymi bisomi >aHadN[ l~ahu, wamin bisomi >aEobudu wamin wamin >aEobudu Ea`biduwna walamo maA Ea`biduwna walaA^ ya`^>ay~uhaA >aEuw*u {ln~aAsi wamin walamo birab~i $ar~i diyni 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 134_Kamel_134Nas, best cost 7125.23 + 1.07245e+06 = 1.07958e+06 over 10875 frames.
+134_Kamel_134Nas wamin {ln~aAsi wamin {ln~aAsi wamin {ln~aAsi wamin yuwasowisu wamin mina wamin {ln~aAsi wamin walaA^ {ln~aAsi {lr~aHiymi wamin Hasada wamin wamin wamin yuwasowisu walamo walamo qulo walaA^ {lr~aHiymi bisomi {lr~aHiymi laA^ wamin Eabadt~umo wamin wamin wamin {ln~aAsi wamin >aEuw*u walamo 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 135_AbdelAziz_135Falaq, best cost 1682.4 + 168431 = 170113 over 1881 frames.
+135_AbdelAziz_135Falaq >aEuw*u wa{ln~aAsi walamo diynukumo diyni {ln~aAsi kufuwFA 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 135_AbdelAziz_135Ikhlas, best cost 1283.62 + 97869.4 = 99153 over 1079 frames.
+135_AbdelAziz_135Ikhlas walamo yalido {ll~ahu walaA^ kufuwFA wa{ln~aAsi kufuwFA 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 135_AbdelAziz_135Kafiroon, best cost 2024.76 + 193983 = 196007 over 2132 frames.
+135_AbdelAziz_135Kafiroon qulo walaA^ maA^ walaA^ walaA^ Ea`biduwna diyni 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 135_AbdelAziz_135Nas, best cost 2745.05 + 227244 = 229989 over 2634 frames.
+135_AbdelAziz_135Nas qulo >aEuw*u wamin {loxan~aAsi <i*aA {loxan~aAsi {loEuqadi lamo $ar~i {ln~aAsi <i*aA {ln~aAsi {loxan~aAsi {ln~aAsi {loxan~aAsi {ln~aAsi {ln~aAsi {loxan~aAsi <i*aA kufuwFA 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 136_AbdelKawi_136Falaq, best cost 4201.8 + 307998 = 312199 over 3253 frames.
+136_AbdelKawi_136Falaq bisomi $ar~i yalido >aHadN {lr~aHoma`ni {lr~aHiymi qulo taEobuduwna {ll~ahu wamin $ar~i maA fiY walaA^ fiY {loEuqadi min $ar~i {ll~ahu yalido fiY Suduwri wamin bisomi >aEuw*u fiY wamin {ll~ahi 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 136_AbdelKawi_136Ikhlas, best cost 2700.92 + 207058 = 209759 over 2203 frames.
+136_AbdelKawi_136Ikhlas bisomi >aHadN {ll~ahi {lr~aHoma`ni {lr~aHiymi huwa {ll~ahu >aHadN yalido yalido {ll~ahu walaA^ l~ahu, walaA^ bisomi huwa 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 136_AbdelKawi_136Kafiroon, best cost 4318.32 + 429599 = 433917 over 4739 frames.
+136_AbdelKawi_136Kafiroon bisomi {ll~ahi {lr~aHoma`ni {lr~aHiymi qulo laA^ walaA^ EaAbidN maA^ taEobuduwna walaA^ Ea`biduwna l~ahu, >antumo walaA^ yuwasowisu walaA^ >antumo walaA^ diyni 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 136_AbdelKawi_136Nas, best cost 4103.22 + 438904 = 443007 over 5003 frames.
+136_AbdelKawi_136Nas bisomi >aHadN {ll~ahi {lr~aHoma`ni {lr~aHiymi birab~i {ln~aAsi fiY {ln~aAsi >aEobudu bisomi {ln~aAsi fiY {ln~aAsi lamo bisomi {ln~aAsi fiY {ln~aAsi >aEobudu {ll~ahu yalido {lr~aHoma`ni 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 137_Rawdhaan_137Falaq, best cost 2618.27 + 245716 = 248334 over 2289 frames.
+137_Rawdhaan_137Falaq bisomi wamin {lr~aHoma`ni {lr~aHiymi qulo >aEuw*u wamin yuwlado min $ar~i maA walamo fiY min $ar~i $ar~i walaA^ $ar~i min $ar~i walaA^ wamin 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 137_Rawdhaan_137Ikhlas, best cost 2226.18 + 267423 = 269649 over 2503 frames.
+137_Rawdhaan_137Ikhlas bisomi walaA^ {ll~ahi wamin {lr~aHoma`ni diyni walamo walaA^ walamo bisomi wamin bisomi $ar~i $ar~i bisomi $ar~i 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 137_Rawdhaan_137Kafiroon, best cost 2987.31 + 326876 = 329863 over 3127 frames.
+137_Rawdhaan_137Kafiroon bisomi {ll~ahi wamin {lr~aHoma`ni {lr~aHiymi qulo ya`^>ay~uhaA >aHadN maA^ wamin walamo walaA^ bisomi m~aA wamin walaA^ wamin birab~i walaA^ diyni 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 137_Rawdhaan_137Nas, best cost 2854.24 + 287761 = 290615 over 2699 frames.
+137_Rawdhaan_137Nas bisomi laA^ {ll~ahi {lr~aHoma`ni {lr~aHiymi qulo >aEuw*u bisomi fiY bisomi walaA^ qulo >anaA" wamin wamin $ar~i wa{ln~aAsi yuwasowisu qulo $ar~i wamin $ar~i wa{ln~aAsi 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 138_AlHamri_138Falaq, best cost 4162.34 + 348697 = 352859 over 3804 frames.
+138_AlHamri_138Falaq bisomi {ll~ahi {ll~ahi {lr~aHoma`ni {lr~aHiymi qulo >aEuw*u birab~i maA xalaqa fiY min walaA^ maA xalaqa fiY <i*aA wamin $ar~i <i*aA <i*aA xalaqa fiY {loEuqadi min >aEuw*u walamo min $ar~i HaAsidK lamo >aHadN[ 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 138_AlHamri_138Ikhlas, best cost 2652.22 + 258210 = 260863 over 2768 frames.
+138_AlHamri_138Ikhlas bisomi maA {ll~ahi {ll~ahi {lr~aHiymi yalido walamo xalaqa yalido walamo bisomi yuwlado walaA^ l~ahu, kufuwFA l~ahu, walamo >aHadN[ 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 138_AlHamri_138Kafiroon, best cost 5118.74 + 433674 = 438793 over 4689 frames.
+138_AlHamri_138Kafiroon bisomi >aEuw*u {ll~ahi {ll~ahi {lr~aHoma`ni {lr~aHiymi qulo ya`^>ay~uhaA taEobuduwna walaA^ Ea`biduwna maA^ qulo maA^ l~ahu, taEobuduwna walaA^ Ea`biduwna <i*aA Ea`biduwna m~aA Eabadt~umo lamo qulo waliYa Ea`biduwna {loEuqadi <i*aA Ea`biduwna m~aA >aEuw*u lamo bisomi {lr~aHiymi diyni 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 138_AlHamri_138Nas, best cost 3694.64 + 462598 = 466293 over 5352 frames.
+138_AlHamri_138Nas bisomi qulo maA {ll~ahi {ll~ahi {lr~aHoma`ni {lr~aHiymi qulo >aEuw*u <i*aA birab~i {ln~aAsi yuwasowisu bisomi {ln~aAsi <ila`hi {ln~aAsi fiY <i*aA min $ar~i <i*aA {ln~aAsi {ln~aAsi fiY 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 139_AbdulBari_139Falaq, best cost 4147.63 + 376818 = 380965 over 3911 frames.
+139_AbdulBari_139Falaq bisomi maliki yuwlado {ll~ahi {ll~ahu bisomi {ll~ahi {lr~aHoma`ni {lr~aHoma`ni {lr~aHiymi qulo >aEuw*u birab~i $ar~i maA {ln~af~a`va`ti birab~i min maA {ln~af~a`va`ti fiY $ar~i {ll~ahu bisomi <i*aA walamo min $ar~i HaAsidK walamo min kufuwFA 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 139_AbdulBari_139Ikhlas, best cost 2651.05 + 242756 = 245407 over 2454 frames.
+139_AbdulBari_139Ikhlas bisomi yuwlado {ll~ahi walaA^ {ll~ahi {lr~aHiymi yalido maA walamo yalido maliki yuwlado maA walaA^ l~ahu, qulo walamo 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 139_AbdulBari_139Kafiroon, best cost 4556.48 + 507530 = 512087 over 5515 frames.
+139_AbdulBari_139Kafiroon bisomi walaA^ {ll~ahi {lr~aHoma`ni {lr~aHoma`ni {lr~aHiymi qulo laA^ walamo {ln~af~a`va`ti {ln~af~a`va`ti l~ahu, walaA^ bisomi Ea`biduwna l~ahu, walaA^ Ea`biduwna walamo walaA^ walaA^ l~ahu, qulo walamo walamo bisomi {lr~aHoma`ni {lr~aHoma`ni 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 139_AbdulBari_139Nas, best cost 4264.31 + 450286 = 454550 over 5008 frames.
+139_AbdulBari_139Nas bisomi maA {ll~ahi {ll~ahi {lr~aHoma`ni diyni {lr~aHiymi qulo yalido birab~i {ln~aAsi {lojin~api {ln~aAsi {lojin~api bisomi {ln~aAsi kufuwFA min min $ar~i huwa {ln~aAsi {lojin~api l~ahu, waliYa kufuwFA <i*aA 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 140_AbdulBasit_140Falaq, best cost 4302.67 + 610995 = 615298 over 6314 frames.
+140_AbdulBasit_140Falaq bisomi Ea`biduwna wamin $ar~i birab~i {lr~aHiymi $ar~i qulo >aEuw*u >aEuw*u {lojin~api birab~i lamo >aEuw*u <i*aA wamin walamo >aHadN[ fiY {loEuqadi {ln~aAsi 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 140_AbdulBasit_140Ikhlas, best cost 3231.54 + 404321 = 407553 over 4099 frames.
+140_AbdulBasit_140Ikhlas bisomi wamin wamin birab~i {lr~aHoma`ni {lr~aHiymi >aEuw*u <i*aA wamin walamo bisomi {ll~ahu walaA^ lamo >aHadN[ qulo lamo 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 140_AbdulBasit_140Kafiroon, best cost 5168.14 + 846158 = 851326 over 9068 frames.
+140_AbdulBasit_140Kafiroon bisomi {ll~ahu Ea`biduwna yuwlado {ll~ahi diyni diyni ya`^>ay~uhaA l~ahu, walamo walaA^ walamo Ea`biduwna Ea`biduwna qulo lamo {l~a*iY wamin {ln~aAsi walamo wamin walamo diyni 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:99) For utterance 140_AbdulBasit_140Nas, best cost 4986.94 + 774610 = 779597 over 8033 frames.
+140_AbdulBasit_140Nas bisomi Ea`biduwna {ll~ahi qulo diyni diyni qulo >aEuw*u >aEuw*u birab~i {ln~aAsi Ea`biduwna {ln~aAsi wamin Ea`biduwna {ln~aAsi wamin wamin maliki mina wamin fiY qulo {ln~aAsi {ln~aAsi walaA^ wamin {lr~aHoma`ni 
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:124) Overall cost per frame is 95.7758 = 0.840301 [graph] + 94.9355 [acoustic] over 131862 frames.
+LOG (lattice-best-path[5.5.996~1-2b016]:main():lattice-best-path.cc:128) Done 32 lattices, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Tue Feb 15 14:17:58 PKT 2022, elapsed time 1 seconds

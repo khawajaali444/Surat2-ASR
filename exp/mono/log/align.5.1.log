@@ -1,0 +1,145 @@
+# gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 --careful=false "gmm-boost-silence --boost=1.0 1 exp/mono/5.mdl - |" "ark:gunzip -c exp/mono/fsts.1.gz|" "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark,t:|gzip -c >exp/mono/ali.1.gz" 
+# Started at Tue Feb 15 14:12:20 PKT 2022
+#
+gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 --careful=false 'gmm-boost-silence --boost=1.0 1 exp/mono/5.mdl - |' 'ark:gunzip -c exp/mono/fsts.1.gz|' 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark,t:|gzip -c >exp/mono/ali.1.gz' 
+gmm-boost-silence --boost=1.0 1 exp/mono/5.mdl - 
+WARNING (gmm-boost-silence[5.5.996~1-2b016]:main():gmm-boost-silence.cc:82) The pdfs for the silence phones may be shared by other phones (note: this probably does not matter.)
+LOG (gmm-boost-silence[5.5.996~1-2b016]:main():gmm-boost-silence.cc:93) Boosted weights for 5 pdfs, by factor of 1
+LOG (gmm-boost-silence[5.5.996~1-2b016]:main():gmm-boost-silence.cc:103) Wrote model to -
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- 
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 101_Daghistani_101Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 101_Daghistani_101Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 101_Daghistani_101Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 101_Daghistani_101Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 102_NohAhmad_102Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 102_NohAhmad_102Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 102_NohAhmad_102Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 102_NohAhmad_102Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 103_Alshoaey_103Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 103_Alshoaey_103Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 103_Alshoaey_103Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 103_Alshoaey_103Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 104_Edghouch_104Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 104_Edghouch_104Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 104_Edghouch_104Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 104_Edghouch_104Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 105_Sarhaan_105Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 105_Sarhaan_105Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 105_Sarhaan_105Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 105_Sarhaan_105Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 106_Salama_106Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 106_Salama_106Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 106_Salama_106Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 106_Salama_106Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 107_Qureshi_107Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 107_Qureshi_107Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 107_Qureshi_107Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 107_Qureshi_107Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 108_Mazroyee_108Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 108_Mazroyee_108Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 108_Mazroyee_108Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 108_Mazroyee_108Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 109_Dossari_109Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 109_Dossari_109Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 109_Dossari_109Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 109_Dossari_109Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 110_Jazairi_110Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 110_Jazairi_110Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 110_Jazairi_110Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 110_Jazairi_110Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 111_Hawwa_111Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 111_Hawwa_111Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 111_Hawwa_111Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 111_Hawwa_111Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 112_Dulaimi_112Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 112_Dulaimi_112Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 112_Dulaimi_112Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 112_Dulaimi_112Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 113_Naehi_113Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 113_Naehi_113Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 113_Naehi_113Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 113_Naehi_113Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 114_Maneese_114Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 114_Maneese_114Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 114_Maneese_114Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 114_Maneese_114Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 115_Waleed_115Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 115_Waleed_115Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 115_Waleed_115Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 115_Waleed_115Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 116_Hammadi_116Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 116_Hammadi_116Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 116_Hammadi_116Kafiroon
+WARNING (gmm-align-compiled[5.5.996~1-2b016]:AlignUtteranceWrapper():decoder-wrappers.cc:617) Retrying utterance 116_Hammadi_116Kafiroon with beam 40
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 116_Hammadi_116Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 117_Tawfeeq_117Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 117_Tawfeeq_117Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 117_Tawfeeq_117Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 117_Tawfeeq_117Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 118_Abdulgani_118Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 118_Abdulgani_118Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 118_Abdulgani_118Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 118_Abdulgani_118Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 119_Taha_119Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 119_Taha_119Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 119_Taha_119Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 119_Taha_119Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 120_Taher_120Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 120_Taher_120Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 120_Taher_120Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 120_Taher_120Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 121_Ezzat_121Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 121_Ezzat_121Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 121_Ezzat_121Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 121_Ezzat_121Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 122_Amarneh_122Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 122_Amarneh_122Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 122_Amarneh_122Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 122_Amarneh_122Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 123_Abbas_123Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 123_Abbas_123Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 123_Abbas_123Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 123_Abbas_123Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 124_Ghurab_124Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 124_Ghurab_124Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 124_Ghurab_124Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 124_Ghurab_124Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 125_Halabi_125Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 125_Halabi_125Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 125_Halabi_125Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 125_Halabi_125Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 126_Abbad_126Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 126_Abbad_126Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 126_Abbad_126Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 126_Abbad_126Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 127_Seferagic_127Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 127_Seferagic_127Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 127_Seferagic_127Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 127_Seferagic_127Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 128_Fouad_128Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 128_Fouad_128Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 128_Fouad_128Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 128_Fouad_128Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 129_Sinan_129Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 129_Sinan_129Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 129_Sinan_129Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 129_Sinan_129Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 130_Moraib_130Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 130_Moraib_130Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 130_Moraib_130Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 130_Moraib_130Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 131_Hassan_131Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 131_Hassan_131Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 131_Hassan_131Kafiroon
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 131_Hassan_131Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 132_Saleh_132Falaq
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 132_Saleh_132Ikhlas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 132_Saleh_132Kafiroon
+LOG (apply-cmvn[5.5.996~1-2b016]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 128 utterances, errors on 0
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:127) 132_Saleh_132Nas
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:135) Overall log-likelihood per frame is -95.6915 over 390155 frames.
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:137) Retried 1 out of 128 utterances.
+LOG (gmm-align-compiled[5.5.996~1-2b016]:main():gmm-align-compiled.cc:139) Done 128, errors on 0
+# Accounting: time=3 threads=1
+# Ended (code 0) at Tue Feb 15 14:12:23 PKT 2022, elapsed time 3 seconds

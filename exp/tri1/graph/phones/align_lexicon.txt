@@ -1,0 +1,64 @@
+!SIL !SIL sil_S
+$ar~i $ar~i $ar~i_S
+<UNK> <UNK> spn_S
+<eps> <eps> sil
+<i*aA <i*aA <i*aA_S
+<ila`hi <ila`hi <ila`hi_S
+>aEobudu >aEobudu >aEobudu_S
+>aEuw*u >aEuw*u >aEuw*u_S
+>aHadN >aHadN >aHadN_S
+>aHadN[ >aHadN[ >aHadN[_S
+>anaA" >anaA" >anaA"_S
+>antumo >antumo >antumo_S
+EaAbidN EaAbidN EaAbidN_S
+Ea`biduwna Ea`biduwna Ea`biduwna_S
+Eabadt~umo Eabadt~umo Eabad_B t~umo_E
+HaAsidK HaAsidK HaAsidK_S
+Hasada Hasada Hasada_S
+Suduwri Suduwri Suduwri_S
+birab~i birab~i bi_B rab~i_E
+bisomi bisomi bi_B somi_E
+diyni diyni diyni_S
+diynukumo diynukumo diynu_B kumo_E
+fiY fiY fiY_S
+gaAsiqK gaAsiqK gaAsiqK_S
+huwa huwa huwa_S
+kufuwFA kufuwFA kufuwFA_S
+laA^ laA^ laA^_S
+lakumo lakumo la_B kumo_E
+lamo lamo lamo_S
+l~ahu, l~ahu, l~a_B hu,_E
+maA maA maA_S
+maA^ maA^ maA^_S
+maliki maliki maliki_S
+min min min_S
+mina mina mina_S
+m~aA m~aA m~aA_S
+qulo qulo qulo_S
+taEobuduwna taEobuduwna taEobudu_B wna_E
+walaA^ walaA^ wa_B laA^_E
+walamo walamo wa_B lamo_E
+waliYa waliYa wa_B li_I Ya_E
+wamin wamin wa_B min_E
+waqaba waqaba waqaba_S
+wa{ln~aAsi wa{ln~aAsi wa_B {l_I n~aAsi_E
+xalaqa xalaqa xalaqa_S
+ya`^>ay~uhaA ya`^>ay~uhaA ya`^_B >ay~uhaA_E
+yakun yakun yakun_S
+yalido yalido yalido_S
+yuwasowisu yuwasowisu yuwasowisu_S
+yuwlado yuwlado yuwlado_S
+{lS~amadu {lS~amadu {l_B S~amadu_E
+{ll~ahi {ll~ahi {ll~ahi_S
+{ll~ahu {ll~ahu {ll~ahu_S
+{ln~aAsi {ln~aAsi {l_B n~aAsi_E
+{ln~af~a`va`ti {ln~af~a`va`ti {l_B n~af~a`va`ti_E
+{loEuqadi {loEuqadi {lo_B Euqadi_E
+{lofalaqi {lofalaqi {lo_B falaqi_E
+{lojin~api {lojin~api {lo_B jin~api_E
+{loka`firuwna {loka`firuwna {lo_B ka`firuwna_E
+{lowasowaAsi {lowasowaAsi {lo_B wasowaAsi_E
+{loxan~aAsi {loxan~aAsi {lo_B xan~aAsi_E
+{lr~aHiymi {lr~aHiymi {l_B r~aHiymi_E
+{lr~aHoma`ni {lr~aHoma`ni {l_B r~aHoma`ni_E
+{l~a*iY {l~a*iY {l~a*iY_S

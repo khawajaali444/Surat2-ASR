@@ -1,0 +1,172 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/mono/decode/lat.1.gz" 
+# Started at Tue Feb 15 14:13:35 PKT 2022
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/mono/decode/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- 
+133_Hudhoudi_133Falaq bisomi {loxan~aAsi {ll~ahi walaA^ >aEuw*u {lr~aHoma`ni {lr~aHiymi >aEuw*u birab~i lamo min $ar~i lamo min $ar~i <i*aA min $ar~i walamo {ln~aAsi min $ar~i $ar~i maA lamo diynukumo 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 133_Hudhoudi_133Falaq is -7.9653 over 3297 frames.
+133_Hudhoudi_133Ikhlas bisomi >aHadN {lr~aHiymi >aHadN walamo yalido walamo $ar~i walaA^ $ar~i l~ahu, kufuwFA taEobuduwna walaA^ walamo 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 133_Hudhoudi_133Ikhlas is -8.07524 over 2158 frames.
+133_Hudhoudi_133Kafiroon bisomi {loxan~aAsi {lr~aHoma`ni {lr~aHiymi taEobuduwna walaA^ <i*aA >aEuw*u <i*aA walaA^ EaAbidN waliYa >aEobudu <ila`hi walamo walamo {ln~aAsi walamo maA^ Hasada walaA^ waqaba >aEobudu maA^ walamo {ln~aAsi diyni walamo $ar~i diyni 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 133_Hudhoudi_133Kafiroon is -7.64954 over 5698 frames.
+133_Hudhoudi_133Nas bisomi {loxan~aAsi {ll~ahi yakun lakumo {lr~aHoma`ni {lr~aHiymi qulo >aEuw*u birab~i {ln~aAsi {ln~aAsi bisomi {ln~aAsi min $ar~i {lojin~api {ln~aAsi {lofalaqi {ln~aAsi lamo 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:CheckMemoryUsage():determinize-lattice-pruned.cc:316) Did not reach requested beam in determinize-lattice: size exceeds maximum 50000000 bytes; (repo,arcs,elems) = (39445280,135680,11213112), after rebuilding, repo size was 29804096, effective beam was 5.98924 vs. requested beam 6
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:363) Determinization finished earlier than the beam for utterance 133_Hudhoudi_133Nas
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 133_Hudhoudi_133Nas is -7.82971 over 4376 frames.
+134_Kamel_134Falaq wamin walaA^ maA {lr~aHiymi qulo wamin birab~i $ar~i >aEuw*u wamin wamin min $ar~i >aEuw*u wamin yuwlado $ar~i min $ar~i wamin bisomi maA walamo {lofalaqi huwa walamo $ar~i {lr~aHiymi bisomi kufuwFA 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:CheckMemoryUsage():determinize-lattice-pruned.cc:316) Did not reach requested beam in determinize-lattice: size exceeds maximum 50000000 bytes; (repo,arcs,elems) = (37854688,140768,12398736), after rebuilding, repo size was 29009216, effective beam was 4.18129 vs. requested beam 6
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:363) Determinization finished earlier than the beam for utterance 134_Kamel_134Falaq
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 134_Kamel_134Falaq is -8.42485 over 3833 frames.
+134_Kamel_134Ikhlas $ar~i huwa {ll~ahu huwa {ll~ahu >aEuw*u walamo {ll~ahu >aHadN walaA^ walamo yalido walaA^ {lr~aHiymi yuwlado kufuwFA walaA^ >aEuw*u walamo 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:CheckMemoryUsage():determinize-lattice-pruned.cc:316) Did not reach requested beam in determinize-lattice: size exceeds maximum 50000000 bytes; (repo,arcs,elems) = (38757536,81664,11565264), after rebuilding, repo size was 28412960, effective beam was 4.0415 vs. requested beam 6
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:363) Determinization finished earlier than the beam for utterance 134_Kamel_134Ikhlas
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 134_Kamel_134Ikhlas is -8.49976 over 2527 frames.
+134_Kamel_134Kafiroon Eabadt~umo {lr~aHiymi bisomi >aHadN[ l~ahu, wamin bisomi >aEobudu wamin wamin >aEobudu Ea`biduwna walamo maA Ea`biduwna maA walaA^ ya`^>ay~uhaA >aEuw*u {ln~aAsi yalido huwa walamo birab~i $ar~i diyni 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 134_Kamel_134Kafiroon is -8.1333 over 4541 frames.
+134_Kamel_134Nas qulo wamin {ln~aAsi {lr~aHiymi wamin {ln~aAsi wamin {ln~aAsi wamin yuwasowisu wamin mina wamin {ln~aAsi wamin walaA^ {ln~aAsi {lr~aHiymi wamin Hasada wamin wamin wamin {lowasowaAsi yuwasowisu walamo walamo lakumo qulo wamin birab~i {lr~aHoma`ni {lr~aHiymi bisomi {lr~aHiymi {loxan~aAsi laA^ maA yuwlado wamin Eabadt~umo wamin wamin wamin wamin {loxan~aAsi {ln~aAsi wamin {loxan~aAsi >aEuw*u walamo 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:CheckMemoryUsage():determinize-lattice-pruned.cc:316) Did not reach requested beam in determinize-lattice: size exceeds maximum 50000000 bytes; (repo,arcs,elems) = (40547904,79488,10015728), after rebuilding, repo size was 32535968, effective beam was 2.76435 vs. requested beam 6
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:DeterminizeLatticePruned():determinize-lattice-pruned.cc:1280) Effective beam 2.76435 was less than beam 6 * cutoff 0.5, pruning raw lattice with new beam 4.0726 and retrying.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 134_Kamel_134Nas is -8.26087 over 10875 frames.
+135_AbdelAziz_135Falaq qulo >aEuw*u {lofalaqi wamin {lr~aHoma`ni walamo Hasada diynukumo diyni {ln~aAsi kufuwFA 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:CheckMemoryUsage():determinize-lattice-pruned.cc:316) Did not reach requested beam in determinize-lattice: size exceeds maximum 50000000 bytes; (repo,arcs,elems) = (39727296,100448,10771152), after rebuilding, repo size was 30259712, effective beam was 4.2426 vs. requested beam 6
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:363) Determinization finished earlier than the beam for utterance 135_AbdelAziz_135Falaq
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 135_AbdelAziz_135Falaq is -7.52091 over 1881 frames.
+135_AbdelAziz_135Ikhlas >aHadN walamo yalido {ll~ahu walaA^ kufuwFA wa{ln~aAsi wa{ln~aAsi >aEobudu kufuwFA 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:CheckMemoryUsage():determinize-lattice-pruned.cc:316) Did not reach requested beam in determinize-lattice: size exceeds maximum 50000000 bytes; (repo,arcs,elems) = (37246432,121088,12663696), after rebuilding, repo size was 27258944, effective beam was 5.35579 vs. requested beam 6
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:363) Determinization finished earlier than the beam for utterance 135_AbdelAziz_135Ikhlas
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 135_AbdelAziz_135Ikhlas is -7.63677 over 1079 frames.
+135_AbdelAziz_135Kafiroon qulo lakumo HaAsidK walaA^ maA^ walaA^ walaA^ Ea`biduwna lakumo diyni 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:CheckMemoryUsage():determinize-lattice-pruned.cc:316) Did not reach requested beam in determinize-lattice: size exceeds maximum 50000000 bytes; (repo,arcs,elems) = (43122976,78176,8015688), after rebuilding, repo size was 32030368, effective beam was 4.14431 vs. requested beam 6
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:363) Determinization finished earlier than the beam for utterance 135_AbdelAziz_135Kafiroon
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 135_AbdelAziz_135Kafiroon is -7.6442 over 2132 frames.
+135_AbdelAziz_135Nas qulo >aEuw*u wamin {loxan~aAsi <i*aA {loxan~aAsi {loEuqadi lamo $ar~i {ln~aAsi <i*aA {ln~aAsi {loxan~aAsi {ln~aAsi l~ahu, {loxan~aAsi {ln~aAsi {ln~aAsi {loxan~aAsi <i*aA kufuwFA 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 135_AbdelAziz_135Nas is -7.2585 over 2634 frames.
+136_AbdelKawi_136Falaq bisomi $ar~i yalido >aHadN {ll~ahi {lr~aHoma`ni {lr~aHiymi qulo taEobuduwna huwa birab~i {ll~ahu wamin $ar~i maA xalaqa fiY wamin walaA^ maA fiY {loEuqadi min $ar~i {ll~ahu {ll~ahu yalido fiY Suduwri wamin bisomi >aEuw*u fiY wamin $ar~i {ll~ahi 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 136_AbdelKawi_136Falaq is -7.97441 over 3253 frames.
+136_AbdelKawi_136Ikhlas bisomi >aHadN {ll~ahi {lr~aHoma`ni {lr~aHiymi huwa {ll~ahu >aHadN yalido yalido {ll~ahu walaA^ yakun l~ahu, walaA^ bisomi huwa 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 136_AbdelKawi_136Ikhlas is -7.91412 over 2203 frames.
+136_AbdelKawi_136Kafiroon bisomi {ll~ahi {lr~aHoma`ni {lr~aHiymi qulo laA^ walaA^ EaAbidN maA^ taEobuduwna walaA^ Ea`biduwna l~ahu, >antumo walaA^ m~aA walamo walaA^ Ea`biduwna >antumo walaA^ $ar~i diyni 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:CheckMemoryUsage():determinize-lattice-pruned.cc:316) Did not reach requested beam in determinize-lattice: size exceeds maximum 50000000 bytes; (repo,arcs,elems) = (40886560,92128,9534072), after rebuilding, repo size was 30619232, effective beam was 3.5418 vs. requested beam 6
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:363) Determinization finished earlier than the beam for utterance 136_AbdelKawi_136Kafiroon
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 136_AbdelKawi_136Kafiroon is -7.61482 over 4739 frames.
+136_AbdelKawi_136Nas bisomi $ar~i yalido {ll~ahi >aHadN {ll~ahi {lr~aHoma`ni {lr~aHiymi qulo {ll~ahu wamin {lr~aHoma`ni {ln~aAsi fiY {ln~aAsi >aEobudu bisomi {ln~aAsi fiY {ln~aAsi lamo bisomi {ln~aAsi fiY {l~a*iY {ln~aAsi >aEobudu {ll~ahu yalido {lr~aHoma`ni 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 136_AbdelKawi_136Nas is -7.36478 over 5003 frames.
+137_Rawdhaan_137Falaq bisomi wamin {lr~aHoma`ni qulo {lr~aHiymi qulo >aEuw*u maA wamin yuwlado min $ar~i maA walamo walamo fiY $ar~i min $ar~i $ar~i walaA^ $ar~i min $ar~i {lr~aHoma`ni walaA^ wamin 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:CheckMemoryUsage():determinize-lattice-pruned.cc:316) Did not reach requested beam in determinize-lattice: size exceeds maximum 50000000 bytes; (repo,arcs,elems) = (38716224,88480,11695536), after rebuilding, repo size was 28730688, effective beam was 2.34967 vs. requested beam 6
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:DeterminizeLatticePruned():determinize-lattice-pruned.cc:1280) Effective beam 2.34967 was less than beam 6 * cutoff 0.5, pruning raw lattice with new beam 3.75473 and retrying.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 137_Rawdhaan_137Falaq is -9.02084 over 2289 frames.
+137_Rawdhaan_137Ikhlas bisomi walaA^ {ll~ahi wamin {lr~aHoma`ni diyni ya`^>ay~uhaA $ar~i walamo walaA^ walamo bisomi wamin bisomi $ar~i $ar~i bisomi $ar~i 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:CheckMemoryUsage():determinize-lattice-pruned.cc:316) Did not reach requested beam in determinize-lattice: size exceeds maximum 50000000 bytes; (repo,arcs,elems) = (38541632,76960,12210120), after rebuilding, repo size was 30438496, effective beam was 3.55847 vs. requested beam 6
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:363) Determinization finished earlier than the beam for utterance 137_Rawdhaan_137Ikhlas
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 137_Rawdhaan_137Ikhlas is -8.96258 over 2503 frames.
+137_Rawdhaan_137Kafiroon bisomi {ll~ahi wamin {lr~aHoma`ni {lr~aHiymi qulo ya`^>ay~uhaA >aHadN walaA^ qulo EaAbidN maA^ wamin walamo walaA^ bisomi m~aA wamin walaA^ m~aA wamin birab~i wamin diyni 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:CheckMemoryUsage():determinize-lattice-pruned.cc:316) Did not reach requested beam in determinize-lattice: size exceeds maximum 50000000 bytes; (repo,arcs,elems) = (39624704,86336,10479936), after rebuilding, repo size was 32240096, effective beam was 3.26671 vs. requested beam 6
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:363) Determinization finished earlier than the beam for utterance 137_Rawdhaan_137Kafiroon
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 137_Rawdhaan_137Kafiroon is -8.77372 over 3127 frames.
+137_Rawdhaan_137Nas bisomi laA^ {ll~ahi wamin {lr~aHoma`ni {lr~aHiymi qulo >aEuw*u bisomi fiY bisomi maliki walaA^ qulo >anaA" wamin wamin $ar~i wa{ln~aAsi yuwasowisu qulo $ar~i qulo wamin {lr~aHoma`ni walaA^ $ar~i wa{ln~aAsi 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:CheckMemoryUsage():determinize-lattice-pruned.cc:316) Did not reach requested beam in determinize-lattice: size exceeds maximum 50000000 bytes; (repo,arcs,elems) = (35276928,177504,14573040), after rebuilding, repo size was 29022688, effective beam was 5.82034 vs. requested beam 6
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:363) Determinization finished earlier than the beam for utterance 137_Rawdhaan_137Nas
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 137_Rawdhaan_137Nas is -8.95445 over 2699 frames.
+138_AlHamri_138Falaq bisomi {ll~ahi {ll~ahi {lr~aHoma`ni {lr~aHiymi qulo >aEuw*u birab~i maA xalaqa fiY min {ll~ahi walaA^ maA xalaqa fiY <i*aA wamin $ar~i <i*aA maA <i*aA xalaqa fiY {loEuqadi min $ar~i >aEuw*u walamo min $ar~i HaAsidK lamo {lojin~api >aHadN[ 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 138_AlHamri_138Falaq is -7.71118 over 3804 frames.
+138_AlHamri_138Ikhlas bisomi maA {ll~ahi {ll~ahi {lr~aHiymi yalido walamo xalaqa yalido {ll~ahi {ln~aAsi bisomi qulo maA walaA^ fiY l~ahu, kufuwFA maA l~ahu, walamo >aHadN[ 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 138_AlHamri_138Ikhlas is -7.83631 over 2768 frames.
+138_AlHamri_138Kafiroon bisomi >aEuw*u {ll~ahi {ll~ahi {lr~aHoma`ni {lr~aHiymi qulo ya`^>ay~uhaA taEobuduwna walaA^ Ea`biduwna maA^ qulo maA^ l~ahu, taEobuduwna walaA^ Ea`biduwna <i*aA Ea`biduwna m~aA Eabadt~umo lamo qulo maA^ waliYa Ea`biduwna {loEuqadi <i*aA Ea`biduwna m~aA >aEuw*u lamo bisomi {lr~aHiymi diyni 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 138_AlHamri_138Kafiroon is -7.77987 over 4689 frames.
+138_AlHamri_138Nas bisomi qulo maA {ll~ahi {ll~ahi {lr~aHoma`ni {lr~aHiymi qulo >aEuw*u <i*aA birab~i {ln~aAsi yuwasowisu bisomi {ln~aAsi <ila`hi {ln~aAsi fiY <i*aA min $ar~i <i*aA {ln~aAsi $ar~i {ln~aAsi fiY 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 138_AlHamri_138Nas is -7.24867 over 5352 frames.
+139_AbdulBari_139Falaq bisomi maliki yuwlado {ll~ahi {ll~ahu bisomi {ll~ahi {lr~aHoma`ni {lr~aHoma`ni {lr~aHiymi qulo >aEuw*u birab~i $ar~i maA xalaqa maA xalaqa maA birab~i min maA {ln~af~a`va`ti maA fiY $ar~i >aHadN {ll~ahu $ar~i HaAsidK <i*aA waqaba min $ar~i walamo min $ar~i HaAsidK walamo min kufuwFA 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 139_AbdulBari_139Falaq is -8.09824 over 3911 frames.
+139_AbdulBari_139Ikhlas bisomi yuwlado {ll~ahi walaA^ {ll~ahi {lr~aHiymi yalido maA walamo walamo yalido {ll~ahu walaA^ yuwlado maA walaA^ maA >aEuw*u l~ahu, qulo walamo 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 139_AbdulBari_139Ikhlas is -8.31443 over 2454 frames.
+139_AbdulBari_139Kafiroon bisomi {ll~ahi walaA^ {ll~ahi {lr~aHoma`ni {lr~aHoma`ni {lr~aHiymi qulo laA^ >aHadN walamo walaA^ {ln~af~a`va`ti {ln~af~a`va`ti l~ahu, walaA^ bisomi Ea`biduwna l~ahu, walaA^ Ea`biduwna walamo walaA^ walaA^ l~ahu, qulo walamo walamo bisomi qulo $ar~i {lr~aHoma`ni {lr~aHoma`ni 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:CheckMemoryUsage():determinize-lattice-pruned.cc:316) Did not reach requested beam in determinize-lattice: size exceeds maximum 50000000 bytes; (repo,arcs,elems) = (37577472,154464,12743904), after rebuilding, repo size was 30256768, effective beam was 5.26434 vs. requested beam 6
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:363) Determinization finished earlier than the beam for utterance 139_AbdulBari_139Kafiroon
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 139_AbdulBari_139Kafiroon is -7.72329 over 5515 frames.
+139_AbdulBari_139Nas bisomi $ar~i maA {ll~ahi maA {ll~ahi {lr~aHoma`ni diyni {lr~aHiymi qulo yalido birab~i {ln~aAsi {lojin~api {ln~aAsi {lojin~api bisomi {ln~aAsi kufuwFA min min $ar~i huwa walaA^ {lofalaqi {ln~aAsi {lojin~api l~ahu, waliYa kufuwFA birab~i <i*aA 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 139_AbdulBari_139Nas is -7.54854 over 5008 frames.
+140_AbdulBasit_140Falaq bisomi Ea`biduwna {loEuqadi {ll~ahi wamin $ar~i birab~i {lr~aHiymi $ar~i qulo >aEuw*u >aEuw*u wamin wamin {lojin~api birab~i lamo >aHadN[ >aEuw*u <i*aA >aHadN[ wamin walamo >aHadN[ fiY {loEuqadi {lowasowaAsi {ln~aAsi >aHadN[ 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 140_AbdulBasit_140Falaq is -8.10895 over 6314 frames.
+140_AbdulBasit_140Ikhlas bisomi wamin {ll~ahi wamin birab~i {lr~aHoma`ni {lr~aHiymi >aEuw*u <i*aA wamin walamo bisomi {ll~ahu walaA^ lamo >aHadN[ qulo lamo 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:CheckMemoryUsage():determinize-lattice-pruned.cc:316) Did not reach requested beam in determinize-lattice: size exceeds maximum 50000000 bytes; (repo,arcs,elems) = (36293024,116032,13990992), after rebuilding, repo size was 29327424, effective beam was 4.55601 vs. requested beam 6
+WARNING (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:363) Determinization finished earlier than the beam for utterance 140_AbdulBasit_140Ikhlas
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 140_AbdulBasit_140Ikhlas is -8.27233 over 4099 frames.
+LOG (apply-cmvn[5.5.996~1-2b016]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 32 utterances, errors on 0
+140_AbdulBasit_140Kafiroon bisomi {ll~ahu Ea`biduwna yuwlado {ll~ahi diyni diyni ya`^>ay~uhaA laA^ l~ahu, walamo >aEobudu <i*aA walaA^ walamo {l~a*iY ya`^>ay~uhaA Ea`biduwna Ea`biduwna Ea`biduwna qulo lamo {l~a*iY wamin {ln~aAsi walamo wamin ya`^>ay~uhaA laA^ >aEuw*u walamo >aHadN[ walaA^ fiY diyni 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 140_AbdulBasit_140Kafiroon is -7.81281 over 9068 frames.
+140_AbdulBasit_140Nas bisomi Ea`biduwna {ll~ahi Eabadt~umo qulo qulo diyni diyni qulo >aEuw*u >aEuw*u fiY {ll~ahu birab~i maliki mina bisomi Ea`biduwna {ln~aAsi wamin Ea`biduwna {ln~aAsi wamin wamin maliki mina walaA^ <ila`hi fiY qulo {ln~aAsi {ln~aAsi walaA^ wamin {lr~aHoma`ni 
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:RebuildRepository():determinize-lattice-pruned.cc:283) Rebuilding repository.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 140_AbdulBasit_140Nas is -8.07638 over 8033 frames.
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:main():gmm-latgen-faster.cc:176) Time taken 259.125s: real-time factor assuming 100 frames/sec is 0.196512
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:main():gmm-latgen-faster.cc:179) Done 32 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.996~1-2b016]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.96652 over 131862 frames.
+# Accounting: time=259 threads=1
+# Ended (code 0) at Tue Feb 15 14:17:54 PKT 2022, elapsed time 259 seconds
